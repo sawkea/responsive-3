@@ -31,5 +31,71 @@
 	src: url('fonts/Nunito-Black.eot');
 	src: local('☺'), url('fonts/Nunito-Black.woff') format('woff'), url('fonts/Nunito-Black.ttf') format('truetype'), url('fonts/Nunito-Black.svg') format('svg');
 	font-weight: normal;
-	font-style: normal;
+	font-style: 900;
 }
+
+/** font **/
+
+body{
+    font-family: Nunito-Regular, sans-serif;
+    font-size: 1.125rem;
+    ;
+}
+
+/** size caractère **/
+.f-1{
+    font-size: 1rem;
+}
+
+
+/** grid **/
+.container{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/** color **/
+.color-first{
+    color:#5B5766;
+}
+.color-secondary{
+    color: #554D89;
+}
+    
+/** marge **/
+.mr-right16{
+    margin-right: 1rem;
+}
+
+
+/** flex **/
+.d-flex{
+    display: flex;
+}
+.flex-justify-beetwen{
+    justify-content: space-between;
+}
+.align-items-center{
+    align-items: center;
+}
+
+
+
+/** header **/
+#logo{
+    font-family: Nunito-Black, sans-serif;
+    color: #554D89;
+}
+nav >ul{
+    list-style: none;
+}
+
+nav > ul > li > a{
+    text-decoration: none;
+}
+
+header > div> nav > ul > li > a:active{
+    color: #554D89;
+}
+
