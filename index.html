@@ -6,7 +6,7 @@
     <title>Elipso</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="container">
     <header>
         <div class="d-flex align-items-center">
             <p id="logo" class="d-flex align-items-center">
@@ -15,13 +15,20 @@
             </p>    
             
             <nav>
-                <ul class="d-flex f-1 ">
+                <ul class="d-flex f-1 align-items-center ">
                     <li class="mr-right16"><a class="color-first" href="#home">Home</a></li>
                     <li class="mr-right16"><a class="color-first" href="#pages">Pages</a></li>
                     <li class="mr-right16"><a class="color-first" href="#services">Services</a></li>
                     <li class="mr-right16"><a class="color-first" href="#portfolio">Portfolio</a></li>
                     <li class="mr-right16"><a class="color-first" href="#blog">Blog</a></li>
                     <li class="mr-right16"><a class="color-first" href="#contact">Contact</a></li>
+                    <li>
+                        <form id="header-search" class="d-flex flex-justify-beetwen">
+                            <input type="search" id="maRecherche" name="q"
+                            placeholder="Search here"><a href="#search"><img src="img/search.png" alt="Logo search"></a>
+                          </form>
+                        
+                    </li>
                 </ul>
             </nav>
         </div>
