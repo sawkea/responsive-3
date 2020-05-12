@@ -74,10 +74,6 @@ header{
     height: 62.5rem;
 }
 
-#line-styled{
-    height: 0.0625rem;
-    margin-top: 4.9375rem;
-}
 
 /** header - déco**/
 #deco{
@@ -132,18 +128,23 @@ header > div > div > nav > ul > li > a:hover{
     padding-top: 1.398rem;
     border-style: solid;
     border-width: 2px;
-
-
-
 }
-
 #our-price{
     width: 27.25rem;
     height: 18.3125rem;
 }
-
 .button-styled{
-    background: linear-gradient(top right rgb(104, 82, 237) rgb(186, 67, 252)), ;
+    background-image: linear-gradient(45deg, rgb(104, 82, 237), rgb(186, 67, 252)) ;
+    border: none;
+    border-radius:2.5rem;
+    width: 207px;
+    height: 50px;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+
 }
 
 /** Main - part2 **/
