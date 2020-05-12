@@ -103,6 +103,9 @@ h2{
 .mr-top80{ 
     margin-top: 5rem;
 }
+.mr-left80{
+    margin-left: 5.25rem;
+}
 
 /** flex **/
 .d-flex{
@@ -195,7 +198,6 @@ header > div > div > nav > ul > li > a:hover{
     font-weight: 500;
     font-size: 1rem;
     letter-spacing: 0.05rem;
-    
 }
 
 
@@ -285,4 +287,31 @@ main ul {
     height: 474px;
     position: relative;
     border-radius: 237px 237px 237px 80px;
+}
+
+/** Footer **/
+
+/** Footer - aside **/
+
+#bg-color-aside{
+    height: 6.875rem;
+    background-image: linear-gradient(45deg, rgb(104, 82, 237), rgb(186, 67, 252)) ;
+    border-radius: 0.625rem;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.089);
+    line-height: 6.875rem;
+}
+
+.button-styled-white{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius:2.5rem;
+    width: 103px;
+    height: 50px;
+    color: white;
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    margin-top: 1.875rem;
+    
 }
