@@ -12,6 +12,9 @@ body{
     font-weight: 700;
 }
 /** Selected generals **/
+a{
+    text-decoration: none;
+}
 p{
     color:#5B5766;
 }
@@ -27,6 +30,9 @@ h2{
 /** size caractère **/
 .f-1{
     font-size: 1rem;
+}
+.f14{
+    font-size: 0.875rem;
 }
 .f15{
     font-size: 0.9375rem;
@@ -48,7 +54,7 @@ h2{
 }
 
 /** grille **/
-#container{
+.container{
     width: 100%;
     max-width: 1140px;
     margin: 0 auto;
@@ -99,6 +105,9 @@ h2{
 }
 .mr-top66{ 
     margin-top: 4.125rem;
+}
+.mr-top2{
+    margin-top: 2rem;
 }
 .mr-top80{ 
     margin-top: 5rem;
@@ -248,9 +257,9 @@ main ul {
     text-align: center;
     background-color: rgba(225, 228, 237, 30%);
     margin-top: 7.3125rem;
-    max-width: 46.875rem;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1920;
 }
 #marketingexpert{
     color:rgba(91, 87, 102, 80%)
@@ -315,3 +324,22 @@ main ul {
     margin-top: 1.875rem;
     
 }
+
+/** Footer - end **/
+footer li{
+    list-style: none;
+}
+
+footer ul{
+    padding-left: 0;
+    margin-left: 0;
+}
+
+#enfant1footer{
+    flex: 0% 50%;
+}
+
+#enfant2footer {
+    flex: 0% 45%;
+}
+
