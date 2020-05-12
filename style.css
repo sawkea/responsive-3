@@ -12,7 +12,10 @@ body{
 .fontpoppins{
     font-family: Poppins;
 }
-
+.fontpoppinsbold{
+    font-family: Poppins;
+    font-weight: 700;
+}
 /** Selected generals **/
 p{
     color:#5B5766;
@@ -26,11 +29,18 @@ p{
 .f-1{
     font-size: 1rem;
 }
-
+.f18{
+    font-size: 1.125rem;
+}
 .f-22{
     font-size: 1.375rem;
 }
-
+.f20{
+    font-size: 1.25rem;;
+}
+.f50{
+    font-size: 3.125rem;;
+}
 
 /** grille **/
 #container{
@@ -62,6 +72,10 @@ p{
 }
 .mr-left2{
     margin-left: 2rem;
+}
+.m-topleft66{
+    margin-left: 3.5rem;
+    margin-top: 3.5rem;
 }
 
 /** flex **/
@@ -155,7 +169,46 @@ header > div > div > nav > ul > li > a:hover{
     font-weight: 500;
     font-size: 1rem;
     letter-spacing: 0.05rem;
+    margin-top: 4.125rem;
 
+}
+
+
+/** Main - part1 **/
+main li {
+    list-style: none;
+    color: #716C80;
+    line-height: 2.5rem;
+}
+main ul {
+    padding-left: 1.25rem;
+}
+
+.line-deco{
+      border-style: solid;
+      border-width: 0.125rem;
+      color: #BA43FC;
+      width: 2.5rem;
+      border-radius: 0.625rem;
+      margin-top: 1.4375rem;
+      margin-bottom: 1.75rem;
+}
+#best-choise{
+    color: #EF7171;
+    font-size:0.625rem;
+    background-color: rgba(225, 228, 237, 60%);
+    border-radius: 0.8125rem;
+    width: 5.375rem;
+    height: 1.625rem;
+    text-align: center;
+    line-height: 1.625rem;    
+}
+.parts{
+    width: 22.5rem;
+    height: 38.5rem;
+    background-color: white;
+    border-radius: 0.625rem;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.089);    
 }
 
 /** Main - part2 **/
