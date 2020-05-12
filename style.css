@@ -256,9 +256,17 @@ main ul {
 }
 
 
-
 /** Main - part4 **/
 #part4-section{
     width: 26.0625rem;
     height: 29.6221rem;
+}
+
+#bg-deco-part4{
+    display: block;
+    background-color:rgb(104, 82, 237);
+    width: 651px;
+    height: 474px;
+    position: relative;
+    border-radius: 5px 20px 0 5px;
 }
