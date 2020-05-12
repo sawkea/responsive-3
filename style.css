@@ -19,10 +19,17 @@ p{
     color: #554D89;
     text-decoration: none;
 }
+h2{
+    margin: 0;
+}
+
 
 /** size caractère **/
 .f-1{
     font-size: 1rem;
+}
+.f15{
+    font-size: 0.9375rem;
 }
 .f18{
     font-size: 1.125rem;
@@ -53,6 +60,9 @@ p{
 }
 .color-secondary{
     color: #554D89;
+}
+.color-three{
+    color: #716C80;
 }
 .colorwhite{
     color: white;
@@ -86,6 +96,12 @@ p{
 }
 .mr-top120{
     margin-top: 7.5rem;
+}
+.mr-top66{ 
+    margin-top: 4.125rem;
+}
+.mr-top80{ 
+    margin-top: 5rem;
 }
 
 /** flex **/
@@ -179,7 +195,7 @@ header > div > div > nav > ul > li > a:hover{
     font-weight: 500;
     font-size: 1rem;
     letter-spacing: 0.05rem;
-    margin-top: 4.125rem;
+    
 }
 
 
