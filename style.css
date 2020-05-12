@@ -65,6 +65,10 @@ p{
 
 /** header **/
 
+header{
+    height: 62.5rem;
+}
+
 #line-styled{
     height: 0.0625rem;
     margin-top: 4.9375rem;
