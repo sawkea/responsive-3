@@ -146,3 +146,8 @@ header > div > div > nav > ul > li > a:hover{
     background-color: rgba(225, 228, 237, 30%);
     margin-top: 7.3125rem;
 }
+
+/** Main - part4 **/
+#part4-section{
+    width: 26.0625rem;
+}
