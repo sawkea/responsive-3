@@ -57,6 +57,9 @@ p{
 .d-flex{
     display: flex;
 }
+.flex-column{
+    flex-direction: column;
+}
 .flex-justify-beetwen{
     justify-content: space-between;
 }
