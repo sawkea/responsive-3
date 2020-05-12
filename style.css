@@ -127,6 +127,14 @@ header > div > div > nav > ul > li > a:hover{
     color: #554D89;
     font-family: nunito;
     font-weight: 700; 
+    border-image: linear-gradient(
+      to right, #6852ED, #BA43FC) 100% 0 0 0 ;
+    padding-top: 1.398rem;
+    border-style: solid;
+    border-width: 2px;
+
+
+
 }
 
 #our-price{
