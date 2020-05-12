@@ -54,6 +54,9 @@ p{
 .color-secondary{
     color: #554D89;
 }
+.colorwhite{
+    color: white;
+}
     
 /** marge **/
 .mr-0{
@@ -74,6 +77,15 @@ p{
 .m-topleft66{
     margin-left: 3.5rem;
     margin-top: 3.5rem;
+}
+.mr-bottom{
+    margin-bottom: 20px;
+}
+.mr-top3{
+    margin-top: 3rem;
+}
+.mr-top120{
+    margin-top: 7.5rem;
 }
 
 /** flex **/
@@ -168,7 +180,6 @@ header > div > div > nav > ul > li > a:hover{
     font-size: 1rem;
     letter-spacing: 0.05rem;
     margin-top: 4.125rem;
-
 }
 
 
@@ -226,6 +237,25 @@ main ul {
 #marketingexpert{
     color:rgba(91, 87, 102, 80%)
 }
+
+
+#bgcolor{
+    width: 22.5rem;
+    height: 15.4375rem;
+    background-image: linear-gradient(45deg, rgb(104, 82, 237), rgb(186, 67, 252)) ;
+    border-radius: 0.625rem;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.089);
+}
+
+.bgcolorwhite{
+    width: 22.5rem;
+    height: 15.4375rem;
+    background-color: white ;
+    border-radius: 0.625rem;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.089);
+}
+
+
 
 /** Main - part4 **/
 #part4-section{
