@@ -9,9 +9,17 @@ body{
     font-family: poppins;
     font-weight: bold 700;
 }
+.fontpoppins{
+    font-family: Poppins;
+}
 
+/** Selected generals **/
 p{
     color:#5B5766;
+}
+.link{
+    color: #554D89;
+    text-decoration: none;
 }
 
 /** size caractère **/
@@ -24,7 +32,7 @@ p{
 }
 
 
-/** grid **/
+/** grille **/
 #container{
     width: 100%;
     max-width: 1140px;
@@ -51,6 +59,9 @@ p{
 }
 .mr-top7{
     padding-top: 6.9375rem;
+}
+.mr-left2{
+    margin-left: 2rem;
 }
 
 /** flex **/
