@@ -64,6 +64,27 @@ p{
 
 
 /** header **/
+
+#line-styled{
+    height: 0.0625rem;
+    margin-top: 4.9375rem;
+}
+
+/** header - déco**/
+#deco{
+    display: block;
+    background-color:rgb(104, 82, 237);
+    width: 673px;
+    height: 1369px;
+    border-radius: 336.5px;
+    position: absolute;
+    right: -20px;
+    rotate: 44deg;
+    transform: translateX(837,63px);
+    transform: translateY(-452px);
+}
+
+/** header - logo**/
 #logo{
     font-family: nunito;
     font-weight: 900;
@@ -73,6 +94,7 @@ p{
 h1{
     font-size: 3.125rem;
     font-weight: 700;
+    margin-top: 14.75rem;
 }
 
 /** header - navigation **/
@@ -103,5 +125,7 @@ header > div > div > nav > ul > li > a:hover{
     height: 18.3125rem;
 }
 
-
+.button-styled{
+    background: linear-gradient(top right rgb(104, 82, 237) rgb(186, 67, 252)), ;
+}
 
