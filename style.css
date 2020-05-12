@@ -4,11 +4,6 @@ body{
     font-family: nunito;
     font-size: 1.125rem;
 }
-
-.font-title{
-    font-family: poppins;
-    font-weight: bold 700;
-}
 .fontpoppins{
     font-family: Poppins;
 }
@@ -36,10 +31,13 @@ p{
     font-size: 1.375rem;
 }
 .f20{
-    font-size: 1.25rem;;
+    font-size: 1.25rem;
+}
+.f34{
+    font-size: 2.125rem;
 }
 .f50{
-    font-size: 3.125rem;;
+    font-size: 3.125rem;
 }
 
 /** grille **/
@@ -178,10 +176,12 @@ header > div > div > nav > ul > li > a:hover{
 main li {
     list-style: none;
     color: #716C80;
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
 main ul {
     padding-left: 1.25rem;
+    margin-bottom: 0;
+    margin-top: 2.8rem;
 }
 
 .line-deco{
@@ -201,7 +201,8 @@ main ul {
     width: 5.375rem;
     height: 1.625rem;
     text-align: center;
-    line-height: 1.625rem;    
+    line-height: 1.625rem; 
+    margin-right: 4rem;   
 }
 .parts{
     width: 22.5rem;
@@ -218,6 +219,12 @@ main ul {
     text-align: center;
     background-color: rgba(225, 228, 237, 30%);
     margin-top: 7.3125rem;
+    max-width: 46.875rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#marketingexpert{
+    color:rgba(91, 87, 102, 80%)
 }
 
 /** Main - part4 **/
