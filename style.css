@@ -376,3 +376,96 @@ footer #enfant4footer{
 
 }
 
+/* media queries pour tablette avec un minimum de 992px de largeur */
+@media only screen and (min-width: 992px) and (max-width:1199.98px) {
+
+    /* header */
+
+    header{
+        width: 100%;
+        max-width: 1100px;
+        margin: auto;
+        height: 700px;
+    }
+
+    #deco{
+        background-image: url("img/Bg-shape.png");
+        background-position: 150% 0;
+        background-repeat: no-repeat;
+        background-size: 750px;
+    }
+    #our-price h1{
+        margin-top: 30%;
+    }
+
+        /* main 1 */
+
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+
+        /* main 2 */
+    .bg-gris{
+        height: 33.4375rem;
+        background-image:linear-gradient( to right,rgba(225, 228, 237, 30%), rgba(225, 228, 237, 30%)), url(img/Bg.png);
+        background-repeat: no repeat;
+        background-size: auto 100% ;
+    }
+
+}
+
+
+    /* media queries pour tablette avec un minimum de 768px de largeur  */
+    @media only screen and (min-width: 768px) and (max-width: 991.98px){
+
+        /* header */
+
+    header{
+        width: 1000%;
+        max-width: 900px;
+        margin: auto;
+        height: 600px;
+    }
+
+    #deco{
+        background-image: url("img/Bg-shape.png");
+        background-position: 120% 0%;
+        background-repeat: no-repeat;
+        background-size: 500px;
+    }
+
+    #our-price h1{
+        margin-top: 20%;
+    }
+
+        /* main 1 */
+
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+    #main1{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+    .parts{
+        margin-bottom: 2rem;
+    }
+
+
+        /* main 2 */
+    .bg-gris{
+        height: 33.4375rem;
+        background-image:linear-gradient( to right,rgba(225, 228, 237, 30%), rgba(225, 228, 237, 30%)), url(img/Bg.png);
+        background-repeat: no repeat;
+        background-size: auto 100% ;
+
+    }
+    #services{
+        flex-direction: column;
+        flex: 10%;
+    }
+   
+}
