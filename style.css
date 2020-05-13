@@ -89,7 +89,7 @@ h2{
     margin-right: 8rem;
 }
 .mr-top7{
-    padding-top: 6.9375rem;
+    margin-top: 6.9375rem;
 }
 .mr-left2{
     margin-left: 2rem;
@@ -122,6 +122,9 @@ h2{
 .mr-top72{
     margin-top: 4.5rem;
 }
+.pd-top{
+    padding-top: 4rem;
+}
 
 /** flex **/
 .d-flex{
@@ -140,20 +143,21 @@ h2{
 
 /** header **/
 header{
-    height: 62.5rem;
-    z-index: 1;    
+    z-index: 1; 
 }
 .header{
     margin-left: auto;
     margin-right: auto;
     max-width: 1140px;
+    height: 800px;   
+
 }
 
 
 /** header - déco**/
 #deco{
     background-image: url("img/Bg-shape.png");
-    background-position: 120% 0;
+    background-position: 120% ;
     background-repeat: no-repeat;
     background-size: 900px;
     
@@ -254,8 +258,10 @@ main ul {
     height: 38.5rem;
     background-color: white;
     border-radius: 0.625rem;
-    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.089);    
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.089); 
+
 }
+
 
 /** Main - part2 **/
 
@@ -382,10 +388,7 @@ footer #enfant4footer{
     /* header */
 
     header{
-        width: 100%;
         max-width: 1100px;
-        margin: auto;
-        height: 700px;
     }
 
     #deco{
@@ -422,10 +425,7 @@ footer #enfant4footer{
         /* header */
 
     header{
-        width: 1000%;
-        max-width: 900px;
-        margin: auto;
-        height: 600px;
+        margin: 0;
     }
 
     #deco{
@@ -439,8 +439,7 @@ footer #enfant4footer{
         margin-top: 20%;
     }
 
-        /* main 1 */
-
+        /* main - part1 */
     .container{
         width: 100%;
         margin: auto;
@@ -448,24 +447,27 @@ footer #enfant4footer{
     #main1{
         flex-direction: column;
         align-items: center;
-        margin-bottom: 5rem;
+        margin-bottom: 10rem;
     }
     .parts{
         margin-bottom: 2rem;
     }
 
 
-        /* main 2 */
+        /* main - part2 */
     .bg-gris{
         height: 33.4375rem;
         background-image:linear-gradient( to right,rgba(225, 228, 237, 30%), rgba(225, 228, 237, 30%)), url(img/Bg.png);
         background-repeat: no repeat;
         background-size: auto 100% ;
+        margin: auto;
 
     }
     #services{
         flex-direction: column;
         flex: 10%;
     }
-   
+    main div {
+        margin-top: 0;
+    }
 }
