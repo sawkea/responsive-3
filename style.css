@@ -507,6 +507,7 @@ footer #enfant4footer{
         align-items: center;
     }
 
+    /* Footer */
     footer{
         max-width: 900px;
         margin-right: auto;
@@ -515,4 +516,207 @@ footer #enfant4footer{
     footer aside {
         margin-top: 0;
     }
+}
+
+/* Media queries pour smartphone max 480px de largeur */
+@media only screen and (min-width: 480px) and (max-width:767.98px) {
+
+    /* header */
+
+    header{
+        max-width: 700px;  
+        margin-right: auto;
+        margin-left: auto;  
+    }
+
+    #deco{
+        background-image: url("img/Bg-shape.png");
+        background-position: 190% 0%;
+        background-repeat: no-repeat;
+        background-size: 500px;
+    }
+
+    #our-price h1{
+        margin-top: 20%;
+    }
+
+        /* main - part1 */
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+    #main1{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+    .parts{
+        margin-bottom: 2rem;
+    }
+
+
+        /* main - part2 */
+    .bg-gris{
+        height: 33.4375rem;
+        background-image:linear-gradient( to right,rgba(225, 228, 237, 30%), rgba(225, 228, 237, 30%)), url(img/Bg.png);
+        background-repeat: no repeat;
+        background-size: auto 100% ;
+        margin: auto;
+    }
+    
+    main div{
+        margin-top: 0;
+    }
+    #part2{
+        margin-top: 2rem;
+        max-width: 700px;
+    }
+
+        /* main - part3 */
+
+    #part3{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #enfantpart3{
+        flex: 0 80%;
+    }
+    #enfantpart3 .button-styled{
+        margin-top: 1rem;
+    }
+
+    #bgcolor{
+        margin-bottom: 20px;
+    }
+
+    /* main - part4 */
+    .services{
+        flex-direction: column;
+        flex: 10%;
+    }
+    #part4-section{
+        width: 80%;
+        height: 29.6221rem;
+    }
+    
+    #bg-deco-part4{
+        display: block;
+        background-color:rgb(225,228, 237);
+        position: relative;
+        border-radius: 237px 237px 237px 80px;
+    }
+
+    .services{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    /* Footer */
+
+    footer{
+        max-width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}
+
+
+/* Media queries pour tout les écran en dessous de 480px de largeur */
+@media only screen and (max-width: 479.98px){
+
+    /* header */
+
+    header{
+        max-width: 430px;  
+        margin-right: auto;
+        margin-left: auto;  
+    }
+    #deco{
+        background-image: none;
+    }
+    
+
+    #our-price h1{
+        margin-top: 20%;
+    }
+
+        /* main - part1 */
+    .container{
+        width: 100%;
+        margin: auto;
+    }
+    #main1{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+    .parts{
+        margin-bottom: 2rem;
+    }
+
+
+        /* main - part2 */
+    .bg-gris{
+        height: 33.4375rem;
+        background-image:linear-gradient( to right,rgba(225, 228, 237, 30%), rgba(225, 228, 237, 30%)), url(img/Bg.png);
+        background-repeat: no repeat;
+        background-size: auto 100% ;
+        margin: auto;
+    }
+    
+    main div{
+        margin-top: 0;
+    }
+    #part2{
+        margin-top: 2rem;
+        max-width: 700px;
+    }
+
+        /* main - part3 */
+
+    #part3{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #enfantpart3{
+        flex: 0 80%;
+    }
+    #enfantpart3 .button-styled{
+        margin-top: 1rem;
+    }
+
+    #bgcolor{
+        margin-bottom: 20px;
+    }
+
+    /* main - part4 */
+    .services{
+        flex-direction: column;
+        flex: 10%;
+    }
+    #part4-section{
+        width: 80%;
+        height: 29.6221rem;
+    }
+    
+    #bg-deco-part4{
+        display: block;
+        background-color:rgb(225,228, 237);
+        position: relative;
+        border-radius: 237px 237px 237px 80px;
+    }
+
+    .services{
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    /* Footer */
+
+    footer{
+        max-width: 700px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 }
