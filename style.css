@@ -116,6 +116,9 @@ h2{
 .mr-left80{
     margin-left: 5.25rem;
 }
+.mr-top72{
+    margin-top: 4.5rem;
+}
 
 /** flex **/
 .d-flex{
@@ -341,16 +344,26 @@ footer li{
     list-style: none;
 }
 
-footer ul{
+#enfant3footer ul{
     padding-left: 0;
     margin-left: 0;
 }
 
-#enfant1footer{
-    flex: 0% 50%;
+footer #enfant1footer{
+    width: 28%;    
 }
 
-#enfant2footer {
-    flex: 0% 45%;
+footer #enfant3footer{
+    column-count: 2;  
+    column-gap: 3.5rem; 
+}
+
+.deco-border{
+    border-bottom: 2px solid #D8D8D8;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    width: 5rem;
+    column-span: all;
+
 }
 
