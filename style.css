@@ -157,8 +157,9 @@ header{
     position: absolute;
     right: -20px;
     rotate: 44deg;
-    transform: translateX(837,63px);
+    -moz-transform: translateX(837,63px) ;
     transform: translateY(-452px);
+
 }
 
 /** header - logo**/
