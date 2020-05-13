@@ -149,12 +149,12 @@ header{
 
 /** header - déco**/
 #deco{
-    display: block;
     background-color:rgb(104, 82, 237);
     width: 673px;
     height: 1369px;
     border-radius: 336.5px;
     position: absolute;
+    z-index:-1;
     right: -20px;
     rotate: 44deg;
     -moz-transform: translateX(837,63px) ;
@@ -345,18 +345,27 @@ footer li{
     list-style: none;
 }
 
-#enfant3footer ul{
+#enfant3footer #enfant4footer, ul{
     padding-left: 0;
     margin-left: 0;
 }
 
 footer #enfant1footer{
-    width: 28%;    
+    width: 32%;    
+}
+footer #enfant2footer{
+    width: 25%;    
+}
+
+#enfant3-4{
+    width: 33%;
 }
 
 footer #enfant3footer{
-    column-count: 2;  
-    column-gap: 3.5rem; 
+    margin-right: 2rem;
+}
+footer #enfant4footer{
+    margin-top: 3.2rem;
 }
 
 .deco-border{
