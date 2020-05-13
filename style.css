@@ -3,6 +3,7 @@
 body{
     font-family: nunito;
     font-size: 1.125rem;
+    margin: 0;
 }
 .fontpoppins{
     font-family: Poppins;
@@ -135,6 +136,7 @@ h2{
 
 header{
     height: 62.5rem;
+    z-index: 1;
 }
 
 
@@ -188,7 +190,7 @@ header > div > div > nav > ul > li > a:hover{
     font-weight: 700; 
     border-image: linear-gradient(
       to right, #6852ED, #BA43FC) 100% 0 0 0 ;
-    padding-top: 1.398rem;
+    padding-top: 1.4rem;
     border-style: solid;
     border-width: 2px;
 }
@@ -253,14 +255,21 @@ main ul {
 /** Main - part2 **/
 
 #part2{
+    display: block;
     height: 33.4375rem;
     text-align: center;
-    background-color: rgba(225, 228, 237, 30%);
     margin-top: 7.3125rem;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1920;
+    max-width: 46.875rem;
 }
+.bg-gris{
+    display: block;
+    height: 33.4375rem;
+    background-color: rgba(225, 228, 237, 30%);
+    position: relative;
+}
+
 #marketingexpert{
     color:rgba(91, 87, 102, 80%)
 }
