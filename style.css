@@ -311,12 +311,13 @@ main ul {
 }
 
 #bg-deco-part4{
-    display: block;
+    flex: 0 50%;
     background-color:rgb(225,228, 237);
-    width: 651px;
-    height: 474px;
-    position: relative;
+    min-width: 651px;
+    min-height: 474px;
     border-radius: 237px 237px 237px 80px;
+    background-position: center;
+    background-size: cover;
 }
 
 /** Footer **/
@@ -384,7 +385,7 @@ footer #enfant4footer{
 }
 
 /* media queries pour tablette avec un minimum de 992px de largeur */
-@media only screen and (min-width: 992px) and (max-width:1199.98px) {
+@media only screen and (max-width:1199.98px) {
 
     /* header */
 
@@ -423,7 +424,7 @@ footer #enfant4footer{
 
 
     /* media queries pour tablette avec un minimum de 768px de largeur  */
-    @media only screen and (min-width: 768px) and (max-width: 991.98px){
+    @media only screen and (max-width: 991.98px){
 
         /* header */
 
@@ -513,10 +514,43 @@ footer #enfant4footer{
         margin-right: auto;
         margin-left: auto;
     }
-    footer aside {
+    footer > .mr-top120 {
         margin-top: 0;
     }
 }
+
+
+/* media queries pour tablette avec un minimum de 768px de largeur  */
+@media screen and (orientation:portrait) and (max-width: 991.98px){
+    #deco{
+        background-image: none;
+    }
+    header{
+        max-width: 700px;  
+        margin-right: auto;
+        margin-left: auto;  
+    }
+    #part2{
+        margin-top: 2rem;
+        max-width: 700px;
+    }
+    #bg-deco-part4{
+        flex: 0 100%;
+        min-height: 300px;
+        min-width: 100%;   
+        border-radius: 130px 130px 130px 40px;
+    }
+    .container{
+        width:90%;
+        margin: auto;
+    }
+    #part4-section{
+        width: 90%;
+        height: 29.6221rem;
+    }
+}
+
+
 
 /* Media queries pour smartphone max 480px de largeur */
 @media only screen and (min-width: 480px) and (max-width:767.98px) {
@@ -618,6 +652,10 @@ footer #enfant4footer{
         margin-right: auto;
         margin-left: auto;
     }
+    footer > .mr-top120 {
+        margin-top: 0;
+    }
+   
 }
 
 
