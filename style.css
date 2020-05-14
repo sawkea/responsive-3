@@ -168,6 +168,10 @@ header{
     font-weight: 900;
     color: #554D89;
     font-size: 1rem;
+    max-width: 100%;
+}
+header > div > img{
+    max-width: 100%;
 }
 h1{
     font-size: 3.125rem;
@@ -385,12 +389,14 @@ footer #enfant4footer{
 }
 
 /* media queries pour tablette avec un minimum de 992px de largeur */
-@media only screen and (max-width:1199.98px) {
+@media only screen and (max-width:1199.98px) and (min-width:991.98px) {
 
     /* header */
 
     header{
-        max-width: 1100px;
+        max-width: 950px;
+        margin-right: auto;
+        margin-left: auto;
     }
 
     #deco{
@@ -408,7 +414,7 @@ footer #enfant4footer{
         margin-top: 0;
     }
     .container{
-        width: 100%;
+        width: 90%;
         margin: auto;
     }
 
@@ -521,7 +527,7 @@ footer #enfant4footer{
 
 
 /* media queries pour tablette avec un minimum de 768px de largeur  */
-@media screen and (orientation:portrait) and (max-width: 991.98px){
+@media screen and (orientation:portrait) and (max-width: 768.98px){
     #deco{
         background-image: none;
     }
@@ -556,28 +562,46 @@ footer #enfant4footer{
 @media only screen and (min-width: 480px) and (max-width:767.98px) {
 
     /* header */
-
+    .logo{
+        font-size: 200%;
+    }
+    header >div >p >img{
+        min-width: 40%;
+    }
     header{
-        max-width: 700px;  
+        max-width: 420px;  
         margin-right: auto;
-        margin-left: auto;  
+        margin-left: auto; 
+    }
+   
+    .header{
+        max-height: 600px;
+
+    }
+    #button-free{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    #button-free > a {
+        margin-top: 1rem;
     }
 
     #deco{
-        background-image: url("img/Bg-shape.png");
-        background-position: 190% 0%;
-        background-repeat: no-repeat;
-        background-size: 500px;
+        background-image: none;
     }
 
     #our-price h1{
-        margin-top: 20%;
+        margin-top: 10%;
     }
 
         /* main - part1 */
     .container{
-        width: 100%;
+        max-width: 26.25rem;
         margin: auto;
+    }
+    nav{
+        display: none;
     }
     #main1{
         flex-direction: column;
@@ -585,7 +609,8 @@ footer #enfant4footer{
         margin-top: 0;
     }
     .parts{
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
     }
 
 
@@ -603,20 +628,25 @@ footer #enfant4footer{
     }
     #part2{
         margin-top: 2rem;
-        max-width: 700px;
+        max-width: 26.25rem;
     }
 
         /* main - part3 */
 
     #part3{
         flex-wrap: wrap;
-        justify-content: space-around;
+        flex-direction: column; 
+        align-items: center;   
     }
-    #enfantpart3{
-        flex: 0 80%;
-    }
+   
     #enfantpart3 .button-styled{
         margin-top: 1rem;
+        margin-left: 0;
+    }
+    #enfantpart3 p{
+        margin-top: 2rem;
+        margin-left: 0;
+        margin-right: auto;
     }
 
     #bgcolor{
@@ -626,25 +656,34 @@ footer #enfant4footer{
     /* main - part4 */
     .services{
         flex-direction: column;
-        flex: 10%;
+        margin-top: 0;
     }
     #part4-section{
-        width: 80%;
+        flex-wrap:wrap;
+        width: 100%;
         height: 29.6221rem;
     }
     
+
     #bg-deco-part4{
-        display: block;
-        background-color:rgb(225,228, 237);
-        position: relative;
-        border-radius: 237px 237px 237px 80px;
+        display: none;
     }
 
     .services{
         flex-wrap: wrap;
         align-items: center;
     }
-
+    #we-serv{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #we-serv a{
+        margin-top: 1rem;
+    }
+    #button-be-one{
+        margin-top: 0;
+    }
+    
     /* Footer */
 
     footer{
@@ -655,7 +694,54 @@ footer #enfant4footer{
     footer > .mr-top120 {
         margin-top: 0;
     }
-   
+    #bg-color-aside{
+        height: 8rem;
+        background-image: linear-gradient(45deg, rgb(104, 82, 237), rgb(186, 67, 252)) ;
+        border-radius: 1rem;
+        box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.089);
+        line-height: 4rem;
+        margin-top: 0;
+    }
+    
+    .button-styled-white{
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius:1rem;
+        width: 103px;
+        height: 50px;
+        color: white;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: 0.05rem;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        
+    }
+    footer aside{
+        flex-direction: column;
+        align-items: center;
+    }
+    #bg-color-aside p{
+       margin-left: 0;
+    }
+    #footer-end{
+       flex-direction: column;
+    }
+    footer #enfant1footer{
+       width: 100%;
+    }
+    .deco-border{
+        margin-left:auto;
+        margin-right: auto; 
+    }
+    footer #enfant2footer, #enfant3-4{
+        width: 100%;
+        margin-left:auto;
+        margin-right: auto;
+     }
+    
 }
 
 
@@ -663,19 +749,44 @@ footer #enfant4footer{
 @media only screen and (max-width: 479.98px){
 
     /* header */
-
-    header{
-        max-width: 430px;  
-        margin-right: auto;
-        margin-left: auto;  
+    .logo{
+        font-size: 200%;
+    
     }
+    header >div >p >img{
+        min-width: 30%;
+    }
+    header{
+        max-width: 21.25rem;  
+        margin-right: auto;
+        margin-left: auto; 
+    }
+   
+    .header{
+        max-height: 600px;
+    }
+    #button-free{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+    #button-free > a {
+        margin-top: 1rem;
+    }
+
     #deco{
         background-image: none;
     }
-    
 
     #our-price h1{
-        margin-top: 20%;
+        margin-top: 10%;
+        width: 100%;
+    }
+    #our-price{
+        max-width: 21.25rem;  
+    }
+    #our-price p{
+        width: 80%;
     }
 
         /* main - part1 */
@@ -683,13 +794,18 @@ footer #enfant4footer{
         width: 100%;
         margin: auto;
     }
+    nav{
+        display: none;
+    }
     #main1{
         flex-direction: column;
         align-items: center;
         margin-top: 0;
     }
     .parts{
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
+        margin-top: 3rem;
+        background-color: none;
     }
 
 
@@ -707,20 +823,33 @@ footer #enfant4footer{
     }
     #part2{
         margin-top: 2rem;
-        max-width: 700px;
+        max-width: 21.25rem;  
+    }
+
+    #part2 h2{
+        padding-top: 0.5rem;  
     }
 
         /* main - part3 */
-
+    #part3 div div{
+        margin-right: 0;
+    }
     #part3{
         flex-wrap: wrap;
-        justify-content: space-around;
+        flex-direction: column; 
+        align-items: center; 
     }
-    #enfantpart3{
-        flex: 0 80%;
+    #enfantpart3 {
+        max-width: 21.25rem;
     }
     #enfantpart3 .button-styled{
         margin-top: 1rem;
+        margin-left: 0;
+    }
+    #enfantpart3 p{
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     #bgcolor{
@@ -730,31 +859,92 @@ footer #enfant4footer{
     /* main - part4 */
     .services{
         flex-direction: column;
-        flex: 10%;
-    }
+        margin-top: 0;
+        align-items: center;
+   
+     }
     #part4-section{
-        width: 80%;
+        flex-wrap:wrap;
+        width: 100%;
         height: 29.6221rem;
     }
     
+
     #bg-deco-part4{
-        display: block;
-        background-color:rgb(225,228, 237);
-        position: relative;
-        border-radius: 237px 237px 237px 80px;
+        display: none;
     }
 
     .services{
         flex-wrap: wrap;
         align-items: center;
     }
-
+    #we-serv{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    #we-serv a{
+        margin-top: 1rem;
+    }
+    #button-be-one{
+        margin-top: 0;
+    }
+    
     /* Footer */
 
     footer{
-        max-width: 700px;
-        margin-right: auto;
-        margin-left: auto;
+        max-width: 21.25rem;
     }
 
+    footer > .mr-top120 {
+        margin-top: 0;
+    }
+    #bg-color-aside{
+        height: 8rem;
+        background-image: linear-gradient(45deg, rgb(104, 82, 237), rgb(186, 67, 252)) ;
+        border-radius: 1rem;
+        box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.089);
+        line-height: 4rem;
+        margin-top: 5rem;
+    }
+    
+    .button-styled-white{
+        background-color: transparent;
+        border: 1px solid white;
+        border-radius:1rem;
+        width: 103px;
+        height: 50px;
+        color: white;
+        font-family: Poppins;
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: 0.05rem;
+        margin-top: 0;
+        margin-right: 0;
+        margin-bottom: 1rem;
+        
+    }
+    footer aside{
+        flex-direction: column;
+        align-items: center;
+        flex:100%;
+    }
+    #bg-color-aside p{
+       margin-left: 0;
+    }
+    #footer-end{
+       flex-direction: column;
+    }
+    footer #enfant1footer{
+       width: 100%;
+    }
+    .deco-border{
+        margin-left:auto;
+        margin-right: auto; 
+    }
+    footer #enfant2footer, #enfant3-4{
+        width: 100%;
+        margin-left:auto;
+        margin-right: auto;
+     }
+    
 }
